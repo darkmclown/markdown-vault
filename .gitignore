@@ -1,0 +1,20 @@
+# Windows / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian workspace/session files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian cache/trash
+.trash/
+.obsidian/cache/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OneDrive sync temp files
+*.lnk
+~$*
