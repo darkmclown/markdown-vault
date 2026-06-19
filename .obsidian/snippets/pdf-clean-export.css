@@ -1,0 +1,53 @@
+/* Clean PDF export layout for Obsidian */
+
+@media print {
+
+  @page {
+    size: A4;
+    margin: 18mm 16mm 18mm 16mm;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  /* Start major sections cleanly */
+  h1 {
+    break-before: page;
+    page-break-before: always;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h1:first-of-type {
+    break-before: auto;
+    page-break-before: auto;
+  }
+
+  h2, h3, h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Avoid ugly breaks inside important blocks */
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  table, pre, blockquote, img, .callout {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Manual page break marker */
+  .page-break {
+    display: block;
+    break-after: page;
+    page-break-after: always;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+}

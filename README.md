@@ -13,3 +13,4 @@ Personal Markdown vault for notes, projects, meetings, tasks, and reusable knowl
 - 06-Templates: note templates
 - 90-Archive: completed or inactive notes
 - Attachments: images and supporting files
+Test1
