@@ -1,5 +1,5 @@
 
-###  AWS working  slurm script 
+###  AWS working  slurm script QARGOS
 
 ```
 #!/bin/bash
