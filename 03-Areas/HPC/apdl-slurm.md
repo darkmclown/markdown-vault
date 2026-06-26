@@ -1,4 +1,6 @@
 
+@@
+
 ```
 #!/bin/bash
 #SBATCH -J mapdl_dis
@@ -33,3 +35,5 @@ ansys252 -b -dis -np "$NP" \
 echo "Completed at $(date)"
 
 ```
+
+
