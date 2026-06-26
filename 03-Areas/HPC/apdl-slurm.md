@@ -1,5 +1,5 @@
 
-###  AWS wor
+###  AWS working  slurm script 
 
 ```
 #!/bin/bash
