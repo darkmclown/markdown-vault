@@ -1,5 +1,7 @@
 
-###  AWS working  SLURM script QARGOS
+###  AWS SLURM script QARGOS
+
+
 
 ```
 #!/bin/bash
